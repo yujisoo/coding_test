@@ -2,9 +2,6 @@ import sys
 input = sys.stdin.readline
 
 n = int(input())
-cnt1 = 0
-cnt2 = 0
-
 def fib(n):
     global cnt1
     if n==1 or n==2:
