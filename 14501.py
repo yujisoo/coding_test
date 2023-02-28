@@ -11,6 +11,5 @@ for i in range(n):
         if dp[j]<dp[i]+data[i][1]:
             dp[j] = dp[i]+data[i][1]
 
-
 print(dp)
 print(max(dp))
